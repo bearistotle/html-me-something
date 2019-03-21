@@ -1,0 +1,8 @@
+body{
+  display: table;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 75%;
+  margin: auto;
+  font-family: Garamond;
+}
