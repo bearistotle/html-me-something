@@ -1,8 +1,112 @@
 body{
-  display: table;
-  text-align: justify;
-  text-justify: inter-word;
-  max-width: 75%;
-  margin: auto;
+  display: block;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Garamond;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+img{
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  font-family: Srisakdi;
+  font-size: 2.2em;
+  color: #ffcc80;
+  text-align: center;
+  text-shadow: 1px 1px 2px #4d1a00;
+
+}
+
+h2{
+  font-family: Garamond;
+  font-weight: lighter;
+  font-variant: small-caps;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 1em;
+  color: #4d1a00;
+}
+
+body{
+  background: url("images/scotland_crop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1
+}
+
+main{
+  margin: 15px 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.45);
+  font-family: Palatino;
+  box-shadow: 0px 0px 80px 40px rgba(0, 0, 0, 0.47);
+}
+
+a{
+  color: #b300b3;
+}
+
+.maintext,
+h3,
+h4{
+  font-weight: lighter;
+  color: #ffcc80;
+  text-shadow: 1px 1px 2px #4d1a00;
+}
+
+h3,
+h4{
+  font-weight: lighter;
+  font-family: Garamond;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.maintext{
+  text-align: justify;
+  margin: 0 auto;
+
+}
+
+.divider{
+  color: #4d1a00;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.stanza{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.8);
+  font-family: "Special Elite";
+  font-size: 0.9em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.rotateimg90{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
