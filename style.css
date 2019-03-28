@@ -26,7 +26,6 @@ h1{
   color: #ffcc80;
   text-align: center;
   text-shadow: 1px 1px 2px #4d1a00;
-
 }
 
 h2{
@@ -72,9 +71,7 @@ h4{
   font-variant: small-caps;
 }
 
-h3{
-  text-decoration: underline;
-}
+h3{text-decoration: underline;}
 
 .body_links{color: #e68a00;}
 
@@ -87,10 +84,7 @@ h3{
 
 .maintext,
 ol,
-ul{
-  text-align: justify;
-  margin: 0 auto;
-}
+ul{text-align: justify; margin: 0 auto;}
 
 .divider{
   color: #4d1a00;
@@ -108,14 +102,6 @@ ul{
   padding-bottom: 10px;
 }
 
-.foot{
-  color: #9a9ae5;
-}
+.foot{color: #9a9ae5;}
 
-.rotateimg90{
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
+#rocket{width: 80px;}
