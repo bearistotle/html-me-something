@@ -12,7 +12,8 @@ h1,
 h2,
 h3,
 h4,
-img{
+img,
+iframe{
   padding-top:5px;
   padding-bottom: 5px;
   padding-left: 20px;
@@ -34,7 +35,7 @@ h2{
   font-variant: small-caps;
   text-align: center;
   opacity: 0.6;
-  font-size: 1em;
+  font-size: 1.25em;
   color: #4d1a00;
 }
 
@@ -56,7 +57,9 @@ main{
 
 .maintext,
 h3,
-h4{
+h4,
+ol,
+ul{
   font-weight: lighter;
   color: #ffcc80;
   text-shadow: 1px 1px 2px #4d1a00;
@@ -70,9 +73,7 @@ h4{
   text-decoration: underline;
 }
 
-.body_links{
-  color: #e68a00;
-}
+.body_links{color: #e68a00;}
 
 .center {
   display: block;
@@ -81,10 +82,11 @@ h4{
   width: 50%;
 }
 
-.maintext{
+.maintext,
+ol,
+ul{
   text-align: justify;
   margin: 0 auto;
-
 }
 
 .divider{
@@ -113,8 +115,4 @@ h4{
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-}
-
-#rocket{
-  width: 160px;
 }
