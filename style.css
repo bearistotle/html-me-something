@@ -12,7 +12,8 @@ h1,
 h2,
 h3,
 h4,
-img{
+img,
+iframe{
   padding-top:5px;
   padding-bottom: 5px;
   padding-left: 20px;
@@ -56,7 +57,9 @@ main{
 
 .maintext,
 h3,
-h4{
+h4,
+ol,
+ul{
   font-weight: lighter;
   color: #ffcc80;
   text-shadow: 1px 1px 2px #4d1a00;
@@ -73,9 +76,7 @@ h3{
   text-decoration: underline;
 }
 
-.body_links{
-  color: #e68a00;
-}
+.body_links{color: #e68a00;}
 
 .center {
   display: block;
@@ -84,10 +85,11 @@ h3{
   width: 50%;
 }
 
-.maintext{
+.maintext,
+ol,
+ul{
   text-align: justify;
   margin: 0 auto;
-
 }
 
 .divider{
@@ -116,8 +118,4 @@ h3{
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-}
-
-#rocket{
-  width: 160px;
 }
